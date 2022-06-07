@@ -256,21 +256,30 @@ input{
         width: auto;
     }
     .nav{
-        width: 120%;
+         width: 100%;
+    }
+    .logo{
+        width: 20%;
+        height: 30%;
+
+    }
+    .mr li{ padding: 10px;
+    color: hsl(243, 87%, 12%);
+    font-weight: 500;
     }
     .carrier{
         display: flex;
         flex-direction:column-reverse;
+        width: 100%;
     }
     .hero{
         width: auto;
         padding: 40px 20px 0 20px;
     }
     .illustrate-1{
-        height: 500px;
-        width: 550px;
-        padding: 40px 20px 0 20px;
-    }
+        height: 100%;
+        width: 100%;
+   }
     .btn-primary{
         margin: 10px;
         width: 300px;
@@ -279,15 +288,16 @@ input{
         background-image: url(/images/bg-curve-mobile.svg);
         background-size:cover;
         background-position: center;
+        width: 100%;
     }
     .illustrate-2{
-        height: 400px;
-        width: 450px;
-        padding: 40px 20px 0 20px;
+        height: 100%;
+        width: 100%;
     }
     .container{
         display: flex;
         flex-direction: column-reverse;
+        width: 100%;
     }
     .item{
         width: auto;
@@ -299,37 +309,33 @@ input{
         margin-left: 10px;
 
     }
-    .testimonial-box h5{
-        margin-right: 75px;
-    }
-    .testimonial-box p{
-        margin-right: 30px;
+    .quotes{
+        margin-right: 150px;
     }
     .footer{
         display: flex;
         flex-direction: column;
     }
-    .main-footer{
-        /* float: left; */
-    }
     .mini{
         width: auto;
-    }.info{
-        margin:0 0 80px 80px;
     }
     .btn-secondary{
-        width: 300px;
+        width: 250px;
+        margin-left: 60%;
     }
     .carriage{
         display: flex;
         flex-direction: column;
-        padding: 10px;
+        /* padding: 10px; */
     }
     .mini2{
-        padding-left: 20px;
+        /* padding-left: 20px; */
     }
     .attribution{
         display: none;
+    }
+    .mini2,div{
+        padding: 8px;
     }
 }
 
